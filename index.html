@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio</title>
+    <link href="/src/index.css" rel="stylesheet" />
+  </head>
+  <body class="bg-neutral-950 text-white">
+    <!-- Optional: Preloader content to show before React takes over -->
+    <div id="preloader" class="loader-container">
+      <div class="loader"></div>
+      <p class="loading-text">Loading...</p>
+    </div>
+    
+    
+    <!-- Main application root -->
+    <div id="root" class="hidden"></div>
+    
+    <script type="module">
+      // Hide preloader and show root when React is ready
+      window.addEventListener('DOMContentLoaded', () => {
+        const root = document.getElementById('root');
+        const preloader = document.getElementById('preloader');
+        
+        if (preloader) {
+          preloader.style.display = 'none'; // Hide preloader
+        }
+        if (root) {
+          root.classList.remove('hidden'); // Show root
+        }
+      });
+    </script>
+    
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
