@@ -7,36 +7,7 @@ export const HERO_CONTENT = `I am Pritam Sengupta, currently pursuing a B.Tech i
 
 export const ABOUT_TEXT = `I am a dedicated and passionate technology enthusiast. With experience ranging from working on various projects to winning the Indian Government-initiated hackathon, Smart India Hackathon, I have worked with a variety of technologies, including React, Node.js, MySQL, MongoDB, and more. My journey in technology began with a deep curiosity about how technology could create unique solutions and provide opportunities for advancement, and it has evolved into a career choice where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.Outside of coding, I enjoy various hobbies, including exploring street food, getting a good night's sleep, and spending time with loved ones. This portfolio is another creative approach to showcasing myself, which I intend to enhance further. I look forward to being a part of your tech team, and I am confident you won’t be disappointed.`;
 
-export const EXPERIENCES = [
-  {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
-];
+
 
 export const PROJECTS = [
   {
