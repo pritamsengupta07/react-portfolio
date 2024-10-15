@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="flex items-center gap-4 text-2xl">
           {/* LinkedIn */}
           <a
-            href="https://www.linkedin.com/in/pritam-sengupta-088982250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+            href="https://www.linkedin.com/in/pritam-sengupta-088982250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-blue-500 transition duration-300"
@@ -33,16 +33,14 @@ const Navbar = () => {
           >
             <FaGithub />
           </a>
-
-
         </div>
 
         {/* CV Button */}
-        <a>href="<a href="/Pritam_Sengupta_CV.pdf" download>Download CV</a>
-
+        <a
+          href="/Pritam_Sengupta_CV.pdf"
           download="Pritam_Sengupta_CV.pdf"
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded blink-animation"
-
+        >
           Download CV
         </a>
       </div>
