@@ -39,7 +39,7 @@ const Navbar = () => {
 
         {/* CV Button */}
         <a
-          href="./assets/resume3.pdf.pdf"
+          href="./assets/resume3.pdf"
           download="Pritam_Sengupta_CV.pdf"
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded blink-animation"
         >
